@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+#bold {
+  color: red;
+  font-size: 64px;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-shadow: 6px 6px 20px black;
+}
+
+#bolder {
+  color: red;
+  font-size: 64px;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+#lighter {
+  color: red;
+  font-size: 64px;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+button {
+  color: white;
+  background: green;
+  box-shadow: 4px 4px 10px gray;
+}
+
+/* h1 {
+  color: red;
+  font-size: 64px;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+} */
+
+/* Para comentar com bloco no Windows/Linux: Shift + Alt + A */
+p {
+  color: blue; /* Trocar a cor do texto */
+  font-size: 32px; /* Trocar o tamanho do texto */
+  font-family: "Roboto", sans-serif;
+  /* font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: italic;
+  line-height: 40px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  text-align: center; */
+  text-transform: uppercase;
+}

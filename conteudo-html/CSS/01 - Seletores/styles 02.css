@@ -1,0 +1,61 @@
+/* SELETOR DE TUDO */
+/* {
+   background: aqua;
+    
+}*/
+
+/* 01 - SELETOR SIMPLES
+    h1 {
+        color: red;
+        background: black;
+    }
+
+    p {
+
+        color: blue;
+        font-size: 16px;
+    }
+
+    button {
+
+        color: white;
+        background: green;
+        border-color: black;
+        
+    }
+*/
+
+/* 02 - SELETOR id
+#titulo {
+    color: red;
+    font-size: 25px;
+}
+
+#paragrafo {
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: bold;
+ 
+}
+
+#botao {
+    background: aqua;
+}
+*/
+
+/* 03 - SELETOR class
+
+.texto {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.botao {
+  background: aqua;
+}
+*/
+
+/*ECONOMIZAR CÓDIGO:*/
+.botao, .texto, #paragrafo {
+    color: blueviolet;
+}
