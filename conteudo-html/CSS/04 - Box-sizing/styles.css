@@ -1,0 +1,38 @@
+/* BOX SIZING */
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+    box-shadow: 4px 4px 12px gray;
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 16px gray;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 4px 4px 12px gray;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+.box {
+  width: 160px; /* largura */
+  height: 80px; /* altura */
+  padding: 20px;
+  background: #ff1493;
+  color: white;
+  font-size: 24px; /* tamanho da fonte */
+
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 4px 12px gray;
+
+  /* 🔥 animação */
+  animation: pulsar 1.5s infinite;
+}

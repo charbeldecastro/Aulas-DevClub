@@ -1,0 +1,27 @@
+/* DISPLAYS: BLOCK, INLINE, INLINE-BLOCK */
+
+.box {
+  width: 120px;
+  height: 25px;
+  background: #ff1495;
+  color: white;
+  font-size: 16px; /* tamanho da fonte */
+  margin: 20px 20px;
+  padding: 5px;
+
+   display: inline-block;
+  text-align: center;
+  line-height: 25px; /* mesmo valor da altura da box */
+
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 4px 12px gray;
+}
+
+.box02 {
+  background: #ff9100;
+}
+
+.box03 {
+  background: #0004ff;
+}
