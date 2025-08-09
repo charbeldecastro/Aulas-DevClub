@@ -1,0 +1,46 @@
+/* PSEUDO ELEMENTOS */
+
+* {
+  margin: 0; /* Remove a margem externa padrão de todos os elementos */
+  padding: 0; /* Remove o espaçamento interno padrão de todos os elementos */
+  box-sizing: border-box; /* Faz com que largura/altura incluam padding e borda, evitando cálculos extras */
+}
+
+a {
+    margin-top: 16px;
+    display: inline-block; /* necessário para margin-top funcionar em links inline */
+    margin-left: 26px;
+    color: blueviolet   ;
+}
+
+a::before {
+content: "😎";
+}
+
+a::after {
+    content: "🚀";
+}
+
+input {
+  border: 1px solid red;
+  padding: 5px;
+  margin-left: 25px;
+  margin-top: 16px;
+}
+
+input::placeholder {
+  color: #ee1396;
+}
+
+p {
+  margin-left: 25px;
+  margin-top: 16px;
+}
+
+p::first-letter {
+color: blueviolet;
+}
+
+p::first-line {
+    color: blue;
+}
