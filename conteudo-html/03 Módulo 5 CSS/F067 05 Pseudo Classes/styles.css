@@ -1,0 +1,67 @@
+/* Pseudo-classes no CSS
+
+:active → Quando o elemento está ativo (sendo pressionado).
+:visited → Seleciona links que já foram visitados.
+:hover → Quando o mouse passa por cima do elemento.
+:checked → Usado em radio, checkbox ou select quando estão marcados.
+:disabled → Elemento desabilitado (button, input, etc.).
+:enabled → Elemento habilitado.
+:focus → Aplicado quando um elemento recebe foco (por exemplo, ao clicar ou selecionar um campo).
+:read-only → Seleciona input ou textarea que estão apenas para leitura.
+:empty → Elemento que não tem conteúdo/filhos.
+
+Pseudo-classes de posição
+
+:first-child → Primeiro filho de um elemento pai.
+:first-of-type → Primeiro elemento de seu tipo entre os filhos do pai.
+:last-child → Último filho de um elemento pai.
+:last-of-type → Último elemento de seu tipo entre os filhos do pai.
+:not() → Seleciona todos os elementos, exceto os que estão dentro do parêntese.
+:nth-child(n) → Seleciona o elemento baseado na sua posição (ex.: :nth-child(3)).
+:nth-last-child(n) → Seleciona o elemento pela posição contando de trás para frente. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:active {
+    color: blueviolet
+    ;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+p:hover {
+    color: darkgreen;
+} 
+
+input:checked {
+    width: 100px;
+    height: 100px;
+}
+input:focus {
+    border: 1px solid red;
+    outline: none;
+    border-radius: 3px;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background: red;
+    }
+
+.container2 {
+    width: 100px;
+    height: 100px;
+    background: rgb(234, 0, 255);
+    }
+    .container2:empty {
+        background: gray;
+    }
+    
+    

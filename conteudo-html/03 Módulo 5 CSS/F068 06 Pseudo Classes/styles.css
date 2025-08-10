@@ -1,0 +1,47 @@
+/* Pseudo-classes de posição
+
+:first-child → Primeiro filho de um elemento pai.
+:first-of-type → Primeiro elemento de seu tipo entre os filhos do pai.
+:last-child → Último filho de um elemento pai.
+:last-of-type → Último elemento de seu tipo entre os filhos do pai.
+:not() → Seleciona todos os elementos, exceto os que estão dentro do parêntese.
+:nth-child(n) → Seleciona o elemento baseado na sua posição (ex.: :nth-child(3)).
+:nth-last-child(n) → Seleciona o elemento pela posição contando de trás para frente. */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li:nth-child(3) {
+color: red;
+ }
+
+li:nth-last-child(1) {
+color: blue;
+ }
+
+.container :not(p) {
+    color: red  ;
+}
+
+
+/* li:first-child {
+    color: blueviolet;
+}
+
+li:last-child {
+    color: rgb(119, 2, 2);
+}
+
+span:first-of-type {
+    color: red;
+}
+
+p:first-of-type {
+    color: blue;
+}
+ */
