@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
+  /* estilos globais */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,7 +19,7 @@
   display: inline-block;
   width: 60%;
   padding-left: 136px;
-  margin-top:23%;
+  margin-top: 23%;
 }
 
 .container-right {
@@ -31,7 +32,7 @@
 img {
   position: relative;
   top: 25%;
-  right:29%;
+  right: 29%;
 }
 
 h1 {
@@ -63,35 +64,82 @@ button {
 }
 
 button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 button:active {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 a {
-font-size: 28px;
-line-height: 100%;
-letter-spacing: 0px;
-width: 59;
-height: 41;
-color: #5D5D7D;
-margin-right: 41px;
-cursor: pointer;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  width: 59;
+  height: 41;
+  color: #5d5d7d;
+  margin-right: 41px;
+  cursor: pointer;
 }
 
 a:nth-child(2) {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 a:hover {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 a:active {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 header {
-    margin: 24px 0 0 57px ;
+  margin: 24px 0 0 57px;
+}
 
+@media screen and (max-width: 900px) {
+  .container-left {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container-right {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px;
+  }
+
+  img {
+    position: static;
+    max-width: 90%;
+  }
+
+  header {
+    display: none;
+  }
+
+  h1 {
+font-size: 36px;
+line-height: 52px;
+width: auto;
+margin: 58px 50px 0 50px;
+text-align: center;
+opacity: 1;
+  }
+
+  p {
+    margin: 15px 40px;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px; 
+  }
+
+  button {
+    margin: 0 auto;
+    display: block;
+  }
 }
