@@ -75,15 +75,14 @@ color: #6FBF44;
 }
 
 @media screen and (max-width: 800px) {
-
-header {
+  /* HEADER: mostra só o botão, alinhado à direita */
+  header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 0;
     margin: 16px 16px 24px;
   }
-
   .link-header { 
     display: none; /* Esconde Products/Company/Blog/Log in */
   }
@@ -103,12 +102,7 @@ header {
     margin-left: 0;
   }
 
-    .logo-image,
-  section {
-    display: block;
-    margin-left: 0;
-  }
-
+  /* TÍTULO */
   h1 {
     width: auto;
     height: auto;
@@ -119,7 +113,8 @@ header {
     margin: 32px 16px 12px;
   }
 
-    p {
+  /* PARÁGRAFO */
+  p {
     width: auto;
     font-size: 14px;
     line-height: 22px;
@@ -128,7 +123,8 @@ header {
     text-align: center;
     margin: 0 16px 20px;
   }
-  
+
+  /* LINK/BOTÃO “Learn more” (estilizado como texto verde no mock) */
   .button-main {
     display: block;
     width: max-content;
@@ -137,6 +133,7 @@ header {
     letter-spacing: .5px;
   }
 
+  /* IMAGEM: centralizada e responsiva */
   .logo-image {
     display: block;
     width: 85vw;
