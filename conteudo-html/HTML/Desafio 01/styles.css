@@ -86,3 +86,50 @@ p {
   cursor: pointer;
   box-shadow: 0px 4px 4px 0px #00000040;
 }
+
+@media screen and (max-width: 800px) {
+  header {
+    display: none;
+  }
+
+  .logo-image, 
+  section {
+    display: block;
+    margin-left: 0;
+  }
+
+  .logo-image {
+    position: static;
+    display: block;
+    margin: 60px auto 0;
+    width: 90vw;
+    max-width: 360px;
+    height: auto;
+
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 1.1;
+    margin: 24px 16px 6px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 1.2;
+    margin: 0 16px 16px;
+    text-align: center;
+  }
+
+  p {
+    display: none;
+  }
+
+  button {
+    display: block;
+    margin: 12px auto 40px;
+    width: 200px;
+    height: 56px;
+    font-size: 22px;
+  }
+}
